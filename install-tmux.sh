@@ -10,7 +10,7 @@ fi
 
 
 cd ~/
-ln -s -f linux-config-files/tmux/.tmux.conf .tmux.conf
+ln -s -f linux-config/tmux/.tmux.conf .tmux.conf
 
 
 # Install TPM plugins.

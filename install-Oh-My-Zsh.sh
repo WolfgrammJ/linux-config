@@ -26,10 +26,10 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 # Copy fonts
 mkdir ~/.fonts
-cp ~/linux-config-files/powerlevel10k_fonts/* ~/.fonts/
+cp ~/linux-config/powerlevel10k_fonts/* ~/.fonts/
 
 # Linking configuration file
-ln -s -f ~/linux-config-files/powerlevel10k/.p10k.zsh ~/.p10k.zsh
+ln -s -f ~/linux-config/powerlevel10k/.p10k.zsh ~/.p10k.zsh
 
 # Disable Oh-my-Zsh configuration tool
 echo 'POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true' >>! ~/.zshrc
